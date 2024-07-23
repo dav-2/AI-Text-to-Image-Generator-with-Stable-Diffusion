@@ -1,5 +1,36 @@
 # Text-to-Image-Generator-Flask-App-Created-Using-the-Stable-Diffusion-Model
 
+<h2>Diffusion Models</h2>
+
+Diffusion models are a type of machine learning model that has gained significant attention in the field of generative modelling. These models are particularly notable for their ability to generate high-quality images.
+
+<h3>Overview of Diffusion Models</h3>
+
+Diffusion models, also known as score-based generative models or denoising diffusion probabilistic models (DDPMs), generate data by reversing a diffusion process. The key idea is to start with a simple distribution (like Gaussian noise) and progressively refine it into a complex data distribution (like images) through a series of denoising steps.
+
+<h3>Forward Diffusion Process</h3>
+
+The forward process involves gradually adding noise to the data in a sequence of steps. This process transforms the data into a noise distribution. Over many steps, this process ensures that the data becomes indistinguishable from Gaussian noise.
+
+<h3>Reverse Diffusion Process</h3>
+
+The reverse process aims to gradually remove the noise, reconstructing the data from the noisy version. This involves learning a denoising function that can predict the clean data from the noisy data at each step. 
+
+<h3>Training the Model</h3>
+
+Training a diffusion model involves optimising the parameters to minimise the difference between the predicted clean data and the actual clean data at each step.
+
+<h3>Generation Process</h3>
+
+Once trained, generating new data involves starting with a sample from the Gaussian noise distribution and iteratively applying the learned denoising steps. This gradually transforms the noise into a coherent sample from the data distribution.
+
+<h3>Applications and Advantages</h3>
+
+Diffusion models have been shown to generate high-quality images and are competitive with other generative models like GANs (Generative Adversarial Networks) and VAEs (Variational Autoencoders). They have several advantages:
+- Stable Training: Unlike GANs, diffusion models do not suffer from mode collapse or instability during training.
+- High-Quality Outputs: They can produce high-resolution and detailed images.
+
+<h2>Project:</h2>
 
 Created in Google Colab.
 
