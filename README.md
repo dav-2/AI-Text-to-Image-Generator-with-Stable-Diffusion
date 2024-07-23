@@ -81,6 +81,7 @@ To generate new data, the process involves:
 The Stable Diffusion Model is a specific implementation of the latent diffusion model (LDM) architecture that leverages the strengths of both diffusion processes and latent space representations to generate high-quality images from text prompts. Here's an overview of the architecture and components of the Stable Diffusion Model:
 
 <h4>Detailed Architecture</h4>
+
 1. Latent Space Encoder-Decoder
 
     Encoder: A convolutional neural network (CNN) that compresses high-dimensional image data into a lower-dimensional latent space.
