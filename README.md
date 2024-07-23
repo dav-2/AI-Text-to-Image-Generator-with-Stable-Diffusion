@@ -100,12 +100,12 @@ The Stable Diffusion Model is a specific implementation of the latent diffusion 
 4. U-Net-based Denoising Network
 
    U-Net Architecture: The core of the denoising process is a U-Net, which is a convolutional neural network with an encoder-decoder structure and skip connections.
-        - Encoder: Downsamples the noisy latent representation, capturing hierarchical features.
-        - Bottleneck: Processes the compressed features, integrating the text embeddings as conditioning information.
-        - Decoder: Upsamples the processed features back to the original latent space size, combining information from the encoder through skip connections to preserve spatial details.
-        - Skip Connections: Connect corresponding layers of the encoder and decoder, allowing the network to retain high-resolution features and improve gradient flow during training.
+   - Encoder: Downsamples the noisy latent representation, capturing hierarchical features.
+   - Bottleneck: Processes the compressed features, integrating the text embeddings as conditioning information.
+   - Decoder: Upsamples the processed features back to the original latent space size, combining information from the encoder through skip connections to preserve spatial details.
+   - Skip Connections: Connect corresponding layers of the encoder and decoder, allowing the network to retain high-resolution features and improve gradient flow during training.
 
-5. Scheduler for Diffusion Steps
+6. Scheduler for Diffusion Steps
 
     - Step Scheduler: Controls the noise addition and removal process, ensuring a smooth transition between the forward and reverse diffusion steps.
     - Adaptive Scheduling: Some implementations use adaptive schedulers to dynamically adjust the noise levels based on the current state of the image generation process.
