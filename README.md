@@ -112,20 +112,20 @@ The Stable Diffusion Model is a specific implementation of the latent diffusion 
 
 <h4>Workflow of the Stable Diffusion Model</h4>
 
-    Text Encoding: The text prompt is encoded into a high-dimensional embedding using a pre-trained text encoder.
-    Latent Encoding: An initial image (if provided) is encoded into a latent representation. For purely generative tasks, this step might be skipped, and the process starts with pure noise in the latent space.
-    Forward Diffusion: Noise is progressively added to the latent representation over a series of time steps, following a predefined noise schedule.
-    Conditioned Denoising: The noisy latent representation, along with the text embeddings, is passed through the U-Net-based denoising network. The U-Net iteratively reduces the noise, guided by the text embeddings, to generate a coherent image in the latent space.
-    Latent Decoding: The denoised latent representation is decoded back into the image space using the decoder network.
-    Image Generation: The final image is generated, corresponding to the input text prompt.
+- Text Encoding: The text prompt is encoded into a high-dimensional embedding using a pre-trained text encoder.
+- Latent Encoding: An initial image (if provided) is encoded into a latent representation. For purely generative tasks, this step might be skipped, and the process starts with pure noise in the latent space.
+- Forward Diffusion: Noise is progressively added to the latent representation over a series of time steps, following a predefined noise schedule.
+- Conditioned Denoising: The noisy latent representation, along with the text embeddings, is passed through the U-Net-based denoising network. The U-Net iteratively reduces the noise, guided by the text embeddings, to generate a coherent image in the latent space.
+- Latent Decoding: The denoised latent representation is decoded back into the image space using the decoder network.
+- Image Generation: The final image is generated, corresponding to the input text prompt.
 
 <h4>Summary of the Stable Diffusion Model Architecture</h4>
 
-    Encoder-Decoder: Compresses and reconstructs images into/from a latent space to reduce computational complexity.
-    Diffusion Process: Applies noise in the latent space and learns to reverse this process to generate images.
-    Text Encoder: Uses transformer-based models to encode text prompts into conditioning embeddings.
-    U-Net Denoising Network: Performs the core denoising task, integrating text embeddings to guide image generation.
-    Scheduler: Manages the noise levels during the diffusion process, ensuring smooth transitions between steps.
+- Encoder-Decoder: Compresses and reconstructs images into/from a latent space to reduce computational complexity.
+- Diffusion Process: Applies noise in the latent space and learns to reverse this process to generate images.
+- Text Encoder: Uses transformer-based models to encode text prompts into conditioning embeddings.
+- U-Net Denoising Network: Performs the core denoising task, integrating text embeddings to guide image generation.
+- Scheduler: Manages the noise levels during the diffusion process, ensuring smooth transitions between steps.
 
 The combination of these components allows the Stable Diffusion Model to efficiently generate high-quality images that align well with the provided text prompts, leveraging the power of diffusion processes and the efficiency of latent space representations.
 
