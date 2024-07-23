@@ -98,7 +98,7 @@ To open the app, click on the ngrok-free.app link in the output at the end of th
 
 <h2>Examples of Images Generated with the App</h2>
 
-Prompt: white elephant in the water
+Prompt: white elephant in the sea next to a beach
 
 ![Screenshot 2024-07-23 at 17-32-07 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/572e0baf-6bc4-48bc-a000-4dbf1d83ace0)
 
