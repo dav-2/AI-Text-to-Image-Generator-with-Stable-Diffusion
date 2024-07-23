@@ -1,5 +1,6 @@
 # Text-to-Image-Generator-Flask-App-Created-Using-the-Stable-Diffusion-Model
 
+
 <h2>Diffusion Models</h2>
 
 Diffusion models are a type of machine learning model that has gained significant attention in the field of generative modelling. These models are particularly notable for their ability to generate high-quality images.
@@ -30,7 +31,8 @@ Diffusion models have been shown to generate high-quality images and are competi
 - Stable Training: Unlike GANs, diffusion models do not suffer from mode collapse or instability during training.
 - High-Quality Outputs: They can produce high-resolution and detailed images.
 
-<h2>Latent DIffusion Models</h2>
+
+<h2>Latent Diffusion Models</h2>
 
 Latent Diffusion Models (LDMs) are an extension of the basic diffusion models that operate in a latent space instead of directly in the pixel space. This can lead to more efficient and scalable generative modelling, particularly for high-dimensional data like images. Here's a detailed explanation of how Latent Diffusion Models work:
 
@@ -41,21 +43,18 @@ Latent Diffusion Models leverage the idea of performing the diffusion process in
 <h4>Components of Latent Diffusion Models</h4>
 
 LDMs consist of three main components:
-- Autoencoder (Encoder-Decoder Network): This network compresses the high-dimensional data (e.g., images) into a lower-dimensional latent space and then reconstructs the data from this latent representation.
+- Autoencoder (Encoder-Decoder Network): This network compresses the high-dimensional data (e.g., images) into a lower-dimensional latent space and then reconstructs the data from this latent representation. The autoencoder has two parts: 
+    - Encoder: Compresses the high-dimensional data  into a latent representation.
+    - Decoder: Reconstructs the data from the latent representation.
 - Diffusion Process in Latent Space: The diffusion model operates on the latent representations, adding noise and learning to denoise these representations.
 - Latent Variable Model: This model captures the distribution of the latent representations.
 
-<h5>Autoencoder</h5>
 
-The autoencoder has two parts:
-- Encoder: Compresses the high-dimensional data  into a latent representation.
-- Decoder: Reconstructs the data from the latent representation.
-
-<h5>Forward Diffusion Process in Latent Space</h5>
+<h4>Forward Diffusion Process in Latent Space</h4>
 
 Similar to standard diffusion models, the forward diffusion process involves adding noise to the latent representations over a sequence of steps.
 
-<h5>Reverse Diffusion Process in Latent Space</h5>
+<h4>Reverse Diffusion Process in Latent Space</h4>
 
 The reverse diffusion process aims to denoise the latent representations.
 
