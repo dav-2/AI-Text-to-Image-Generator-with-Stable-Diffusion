@@ -82,7 +82,7 @@ Stable Diffusion models are a type of Latent DIffusion models tuned to produce a
 
 
 
-<h2>Project</h2>
+<h1>Project</h1>
 
 Created in Google Colab.
 
