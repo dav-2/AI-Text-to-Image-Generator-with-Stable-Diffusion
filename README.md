@@ -84,31 +84,31 @@ The Stable Diffusion Model is a specific implementation of the latent diffusion 
 
 1. Latent Space Encoder-Decoder
 
-    Encoder: A convolutional neural network (CNN) that compresses high-dimensional image data into a lower-dimensional latent space.
-    Decoder: Another CNN that reconstructs images from the latent representations. This setup helps in reducing the computational cost and memory requirements compared to operating directly on high-resolution images.
+    - Encoder: A convolutional neural network (CNN) that compresses high-dimensional image data into a lower-dimensional latent space.
+    - Decoder: Another CNN that reconstructs images from the latent representations. This setup helps in reducing the computational cost and memory requirements compared to operating directly on high-resolution images.
 
 2. Diffusion Process in Latent Space
 
-    Forward Diffusion Process: Gradually adds noise to the latent representations over a series of time steps.
-    Reverse Diffusion Process: The model learns to denoise the latent representations, starting from pure noise and progressively reducing the noise to generate coherent images.
+    - Forward Diffusion Process: Gradually adds noise to the latent representations over a series of time steps.
+    - Reverse Diffusion Process: The model learns to denoise the latent representations, starting from pure noise and progressively reducing the noise to generate coherent images.
 
 3. Text Encoder
 
-    Text Encoder: Typically uses a pre-trained transformer-based model (such as CLIP from OpenAI) to encode text prompts into high-dimensional embeddings.
-    Text Embeddings: These embeddings condition the diffusion process, guiding the model to generate images that correspond to the text prompts.
+    - Text Encoder: Typically uses a pre-trained transformer-based model (such as CLIP from OpenAI) to encode text prompts into high-dimensional embeddings.
+    - Text Embeddings: These embeddings condition the diffusion process, guiding the model to generate images that correspond to the text prompts.
 
 4. U-Net-based Denoising Network
 
-    U-Net Architecture: The core of the denoising process is a U-Net, which is a convolutional neural network with an encoder-decoder structure and skip connections.
-        Encoder: Downsamples the noisy latent representation, capturing hierarchical features.
-        Bottleneck: Processes the compressed features, integrating the text embeddings as conditioning information.
-        Decoder: Upsamples the processed features back to the original latent space size, combining information from the encoder through skip connections to preserve spatial details.
-        Skip Connections: Connect corresponding layers of the encoder and decoder, allowing the network to retain high-resolution features and improve gradient flow during training.
+   U-Net Architecture: The core of the denoising process is a U-Net, which is a convolutional neural network with an encoder-decoder structure and skip connections.
+        - Encoder: Downsamples the noisy latent representation, capturing hierarchical features.
+        - Bottleneck: Processes the compressed features, integrating the text embeddings as conditioning information.
+        - Decoder: Upsamples the processed features back to the original latent space size, combining information from the encoder through skip connections to preserve spatial details.
+        - Skip Connections: Connect corresponding layers of the encoder and decoder, allowing the network to retain high-resolution features and improve gradient flow during training.
 
 5. Scheduler for Diffusion Steps
 
-    Step Scheduler: Controls the noise addition and removal process, ensuring a smooth transition between the forward and reverse diffusion steps.
-    Adaptive Scheduling: Some implementations use adaptive schedulers to dynamically adjust the noise levels based on the current state of the image generation process.
+    - Step Scheduler: Controls the noise addition and removal process, ensuring a smooth transition between the forward and reverse diffusion steps.
+    - Adaptive Scheduling: Some implementations use adaptive schedulers to dynamically adjust the noise levels based on the current state of the image generation process.
 
 <h4>Workflow of the Stable Diffusion Model</h4>
 
