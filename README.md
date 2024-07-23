@@ -112,12 +112,12 @@ The Stable Diffusion Model is a specific implementation of the latent diffusion 
 
 <h4>Workflow of the Stable Diffusion Model</h4>
 
-- Text Encoding: The text prompt is encoded into a high-dimensional embedding using a pre-trained text encoder.
-- Latent Encoding: An initial image (if provided) is encoded into a latent representation. For purely generative tasks, this step might be skipped, and the process starts with pure noise in the latent space.
-- Forward Diffusion: Noise is progressively added to the latent representation over a series of time steps, following a predefined noise schedule.
-- Conditioned Denoising: The noisy latent representation, along with the text embeddings, is passed through the U-Net-based denoising network. The U-Net iteratively reduces the noise, guided by the text embeddings, to generate a coherent image in the latent space.
-- Latent Decoding: The denoised latent representation is decoded back into the image space using the decoder network.
-- Image Generation: The final image is generated, corresponding to the input text prompt.
+1. Text Encoding: The text prompt is encoded into a high-dimensional embedding using a pre-trained text encoder.
+2. Latent Encoding: An initial image (if provided) is encoded into a latent representation. For purely generative tasks, this step might be skipped, and the process starts with pure noise in the latent space.
+3. Forward Diffusion: Noise is progressively added to the latent representation over a series of time steps, following a predefined noise schedule.
+4. Conditioned Denoising: The noisy latent representation, along with the text embeddings, is passed through the U-Net-based denoising network. The U-Net iteratively reduces the noise, guided by the text embeddings, to generate a coherent image in the latent space.
+5. Latent Decoding: The denoised latent representation is decoded back into the image space using the decoder network.
+6. Image Generation: The final image is generated, corresponding to the input text prompt.
 
 <h4>Summary of the Stable Diffusion Model Architecture</h4>
 
