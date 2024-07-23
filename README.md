@@ -96,7 +96,7 @@ Google Colab runs in a cloud-based environment where each notebook is executed o
 
 To open the app, click on the ngrok-free.app link in the output at the end of the program run in text_to_image_generator_app.ipynb.
 
-<h2>Examples of images generated with the app</h2>
+<h2>Examples of Images Generated with the App</h2>
 
 Prompt: white elephant in the water
 
