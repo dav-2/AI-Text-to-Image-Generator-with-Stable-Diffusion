@@ -34,7 +34,7 @@ Diffusion models have been shown to generate high-quality images and are competi
 
 <h2>Latent Diffusion Models</h2>
 
-Latent Diffusion Models (LDMs) are an extension of the basic diffusion models that operate in a latent space instead of directly in the pixel space. This can lead to more efficient and scalable generative modelling, particularly for high-dimensional data like images. Here's a detailed explanation of how Latent Diffusion Models work:
+Latent Diffusion Models (LDMs) are an extension of the basic diffusion models that operate in a latent space instead of directly in the pixel space. This can lead to more efficient and scalable generative modelling, particularly for high-dimensional data like images.
 
 <h4>Overview of Latent Diffusion Models</h4>
 
