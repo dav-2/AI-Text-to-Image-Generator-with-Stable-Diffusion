@@ -30,6 +30,59 @@ Diffusion models have been shown to generate high-quality images and are competi
 - Stable Training: Unlike GANs, diffusion models do not suffer from mode collapse or instability during training.
 - High-Quality Outputs: They can produce high-resolution and detailed images.
 
+<h2>Latent DIffusion Models</h2>
+
+Latent Diffusion Models (LDMs) are an extension of the basic diffusion models that operate in a latent space instead of directly in the pixel space. This can lead to more efficient and scalable generative modelling, particularly for high-dimensional data like images. Here's a detailed explanation of how Latent Diffusion Models work:
+
+<h4>Overview of Latent Diffusion Models</h4>
+
+Latent Diffusion Models leverage the idea of performing the diffusion process in a lower-dimensional latent space rather than in the original high-dimensional data space. This is achieved by using an autoencoder to encode the data into a latent representation and then applying the diffusion process within this latent space.
+
+<h4>Components of Latent Diffusion Models</h4>
+
+LDMs consist of three main components:
+- Autoencoder (Encoder-Decoder Network): This network compresses the high-dimensional data (e.g., images) into a lower-dimensional latent space and then reconstructs the data from this latent representation.
+- Diffusion Process in Latent Space: The diffusion model operates on the latent representations, adding noise and learning to denoise these representations.
+- Latent Variable Model: This model captures the distribution of the latent representations.
+
+<h5>Autoencoder</h5>
+
+The autoencoder has two parts:
+- Encoder: Compresses the high-dimensional data  into a latent representation.
+- Decoder: Reconstructs the data from the latent representation.
+
+<h5>Forward Diffusion Process in Latent Space</h5>
+
+Similar to standard diffusion models, the forward diffusion process involves adding noise to the latent representations over a sequence of steps.
+
+<h5>Reverse Diffusion Process in Latent Space</h5>
+
+The reverse diffusion process aims to denoise the latent representations.
+
+<h4>Training the Latent Diffusion Model</h4>
+
+Training involves optimising the parameters to minimise the difference between the true and predicted distributions in the latent space.
+
+<h4>Generation Process</h4>
+
+To generate new data, the process involves:
+1. Sampling from the Gaussian noise distribution in the latent space.
+2. Applying the learned denoising steps to obtain a latent representation.
+3. Using the decoder to reconstruct the high-dimensional data from the latent representation.
+
+<h4>Advantages of Latent Diffusion Models</h4>
+
+- Efficiency: Operating in a lower-dimensional latent space reduces the computational complexity and memory requirements compared to working in the high-dimensional pixel space.
+- Scalability: LDMs can handle higher resolutions and larger datasets more efficiently.
+- Quality: By focusing the diffusion process on essential features in the latent space, LDMs can achieve high-quality generation with fewer steps.
+
+
+<h2>Stable Diffusion Models</h2>
+
+Stable Diffusion models are a type of Latent DIffusion models tuned to produce art. They are trained on LAION-5B; a large-scale dataset containing billions of image-text pairs.
+
+
+
 <h2>Project</h2>
 
 Created in Google Colab.
