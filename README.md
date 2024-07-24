@@ -174,4 +174,20 @@ Prompt: stormy sea with an island
 ![Screenshot 2024-07-23 at 20-27-48 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/4b823948-03b8-4ef7-908b-5cca301924a7)
 
 
+<h2>References</h2>
 
+Ho, J., Jain, A., & Abbeel, P. (2020). Denoising Diffusion Probabilistic Models. arXiv preprint arXiv:2006.11239.
+
+Song, Y., & Ermon, S. (2019). Generative Modeling by Estimating Gradients of the Data Distribution. arXiv preprint arXiv:1907.05600.
+
+Song, Y., & Ermon, S. (2020). Improved Techniques for Training Score-Based Generative Models. arXiv preprint arXiv:2006.09011.
+
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B. (2022). High-Resolution Image Synthesis with Latent Diffusion Models. arXiv preprint arXiv:2112.10752.
+
+Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B. (2022). Stable Diffusion: High-Resolution Image Synthesis with Latent Diffusion Models. CompVis GitHub Repository. Available at: https://github.com/CompVis/stable-diffusion.
+
+Croitoru, I., Bogojeski, M., & Amiranashvili, T. (2023). Diffusion Models: A Comprehensive Review of Methods and Applications. arXiv preprint arXiv:2301.04971.
+
+Abdal, R., Zhu, P., Mitra, N. J., & Wonka, P. (2021). Image Synthesis with Disentangled Diffusion Probabilistic Models. arXiv preprint arXiv:2106.01321.
+
+Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
