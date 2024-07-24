@@ -45,6 +45,10 @@ Prompt: white cat
 
 ![white cat prompt](https://github.com/user-attachments/assets/50ec151d-052f-4334-b9ee-ba4eaa8f3091)
 
+Prompt: black square
+
+![black square prompt](https://github.com/user-attachments/assets/8ca983f7-f65c-4fde-baee-17ec8335315c)
+
 Prompt: Edinburgh castle
 
 ![Screenshot 2024-07-23 at 20-29-11 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/acfade24-ba58-4645-8122-de1b7d045adb)
