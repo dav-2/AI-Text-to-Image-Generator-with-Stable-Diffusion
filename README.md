@@ -33,9 +33,9 @@ Prompt: Las meninas Velazquez Van Gogh like
 
 ![Las meninas Velazquez Van Gogh like prompt](https://github.com/user-attachments/assets/4e74da51-b62e-4be3-a9ff-45ec316909ca)
 
-Prompt: sea with beach Van Gogh like
+Prompt: Edinburgh castle
 
-![sea with beach Van Gogh like](https://github.com/user-attachments/assets/bda5c80b-7260-4e91-99c7-3fc9d68806bf)
+![Screenshot 2024-07-23 at 20-29-11 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/acfade24-ba58-4645-8122-de1b7d045adb)
 
 Prompt: yellow square
 
@@ -45,24 +45,21 @@ Prompt: white cat
 
 ![white cat prompt](https://github.com/user-attachments/assets/50ec151d-052f-4334-b9ee-ba4eaa8f3091)
 
+Prompt: sea with beach Van Gogh like
+
+![sea with beach Van Gogh like](https://github.com/user-attachments/assets/bda5c80b-7260-4e91-99c7-3fc9d68806bf)
+
 Prompt: black square
 
 ![black square prompt](https://github.com/user-attachments/assets/8ca983f7-f65c-4fde-baee-17ec8335315c)
-
-Prompt: Edinburgh castle
-
-![Screenshot 2024-07-23 at 20-29-11 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/acfade24-ba58-4645-8122-de1b7d045adb)
-
 
 Prompt: New York city
 
 ![Screenshot 2024-07-23 at 20-30-35 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/ccfb679b-4f13-42f0-810a-8fe81c78bfd0)
 
-
 Prompt: realistic image of New York city
 
 ![Screenshot 2024-07-23 at 20-31-31 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/a54cc6fa-6ec6-4617-b4b3-184fa05f1ebd)
-
 
 Prompt: stormy sea with an island
 
