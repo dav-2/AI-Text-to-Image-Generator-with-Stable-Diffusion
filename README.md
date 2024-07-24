@@ -78,7 +78,7 @@ To generate new data, the process involves:
 
 <h2>Stable Diffusion Models</h2>
 
-The Stable Diffusion Model is a specific implementation of the latent diffusion model (LDM) architecture that leverages the strengths of both diffusion processes and latent space representations to generate high-quality images from text prompts. Here's an overview of the architecture and components of the Stable Diffusion Model:
+The Stable Diffusion Model is a specific implementation of the latent diffusion model (LDM) architecture that leverages the strengths of both diffusion processes and latent space representations to generate high-quality images from text prompts.
 
 <h4>Detailed Architecture</h4>
 
