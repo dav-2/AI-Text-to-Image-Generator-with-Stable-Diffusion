@@ -25,10 +25,15 @@ Google Colab runs in a cloud-based environment where each notebook is executed o
 
 <h2>Examples of Images Generated with the App</h2>
 
-Prompt: white elephant in the sea next to a beach
+![green square prompt](https://github.com/user-attachments/assets/a38e6289-62bd-47d0-abf4-25e939482d04)
 
-![Screenshot 2024-07-23 at 17-32-07 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/572e0baf-6bc4-48bc-a000-4dbf1d83ace0)
+![Las meninas Velazquez Van Gogh like prompt](https://github.com/user-attachments/assets/4e74da51-b62e-4be3-a9ff-45ec316909ca)
 
+![sea with beach Van Gogh like](https://github.com/user-attachments/assets/bda5c80b-7260-4e91-99c7-3fc9d68806bf)
+
+![yellow square prompt](https://github.com/user-attachments/assets/42f6bc83-d6a7-4c49-8d46-af498f03153b)
+
+![white cat prompt](https://github.com/user-attachments/assets/50ec151d-052f-4334-b9ee-ba4eaa8f3091)
 
 Prompt: Edinburgh castle
 
