@@ -14,10 +14,15 @@ Stable Diffusion Model version used: stable-diffusion-2-1. Even though the stabl
 Google Colab runs in a cloud-based environment where each notebook is executed on a virtual machine. This VM is isolated from the internet for security and privacy reasons. Ngrok is a tool that creates secure tunnels to your localhost, allowing you to expose a local development server to the internet. When working in Google Colab, ngrok can be particularly useful for creating web applications or APIs that you want to test or share with others, as it creates tunnels that securely expose the services running inside these VMs to the internet. To use ngrok it is needed to create an account and use the authtoken provided in the account.
 
 <h3>How to Use the Text to Image Generator App</h3>
+
 1. Open the file text_to_image_generator_app.ipynb.
+
 2. Create a ngrok account.
+
 3. Copy the authtoken provided in your ngrok account and paste it in the code in the following line after the word "authtoken": !ngrok authtoken  # Write your ngrok authtoken here.
+
 4. Run the code.
+
 5. Click on the ngrok-free.app link in the output.
 
 <h2>Examples of Images Generated with the App</h2>
