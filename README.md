@@ -1,6 +1,54 @@
 # Text-to-Image-Generator-Flask-App-Created-Using-the-Stable-Diffusion-Model
 
 
+<h1>Project</h1>
+
+Easy to use image generator created in Google Colab. Designed to streamline the experience of creating AI generated images.
+
+text_to_image_generator.ipynb is just the model working inside Colab.
+
+text_to_image_generator_app.ipynb opens a small web app where the user interacts with the image generator.
+
+Stable Diffusion Model version used: stable-diffusion-2-1. Even though the stable-diffusion-2-1 version was released in December 2022, it still offers a good balance beween precision, speed and resources counsumption. The main reason behind the decision to use this version was to optimise Google Colab resources. However, if a better image quality and/or prompt interpretation is needed, newer versions of the model can be used by changing the version in the code.
+
+Google Colab runs in a cloud-based environment where each notebook is executed on a virtual machine. This VM is isolated from the internet for security and privacy reasons. Ngrok is a tool that creates secure tunnels to your localhost, allowing you to expose a local development server to the internet. When working in Google Colab, ngrok can be particularly useful for creating web applications or APIs that you want to test or share with others, as it creates tunnels that securely expose the services running inside these VMs to the internet. To use ngrok it is needed to create an account and use the authtoken provided in the account.
+
+<h3>How to use the image generator app</h3>
+1. Open the file text_to_image_generator_app.ipynb.
+2. Create a ngrok account.
+3. Copy the authtoken provided in your ngrok account and paste it in the code in the following line after the word "authtoken": !ngrok authtoken  # Write your ngrok authtoken here.
+4. Run the code.
+5. Click on the ngrok-free.app link in the output.
+
+<h2>Examples of Images Generated with the App</h2>
+
+Prompt: white elephant in the sea next to a beach
+
+![Screenshot 2024-07-23 at 17-32-07 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/572e0baf-6bc4-48bc-a000-4dbf1d83ace0)
+
+
+Prompt: Edinburgh castle
+
+![Screenshot 2024-07-23 at 20-29-11 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/acfade24-ba58-4645-8122-de1b7d045adb)
+
+
+Prompt: New York city
+
+![Screenshot 2024-07-23 at 20-30-35 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/ccfb679b-4f13-42f0-810a-8fe81c78bfd0)
+
+
+Prompt: realistic image of New York city
+
+![Screenshot 2024-07-23 at 20-31-31 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/a54cc6fa-6ec6-4617-b4b3-184fa05f1ebd)
+
+
+Prompt: stormy sea with an island
+
+![Screenshot 2024-07-23 at 20-27-48 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/4b823948-03b8-4ef7-908b-5cca301924a7)
+
+
+<h1>The AI Image Generator Behind the App: Stable Diffusion Model</h1>
+
 <h2>Diffusion Models</h2>
 
 Diffusion models are a type of machine learning model that has gained significant attention in the field of generative modelling. These models are particularly notable for their ability to generate high-quality images.
@@ -130,48 +178,6 @@ The Stable Diffusion Model is a specific implementation of the latent diffusion 
 The combination of these components allows the Stable Diffusion Model to efficiently generate high-quality images that align well with the provided text prompts, leveraging the power of diffusion processes and the efficiency of latent space representations.
 
 The Stable Diffusion models are tuned to produce art. They are trained on LAION-5B; a large-scale dataset containing billions of image-text pairs.
-
-
-
-<h1>Project</h1>
-
-Created in Google Colab.
-
-text_to_image_generator.ipynb is just the model working inside Colab.
-
-text_to_image_generator_app.ipynb opens a small web app where the user interacts with the image generator.
-
-Stable Diffusion Model version used: stable-diffusion-2-1. Even though the stable-diffusion-2-1 version was released in December 2022, it still offers a good balance beween precision, speed and resources counsumption. The main reason behind the decision to use this version was to optimise Google Colab resources. However, if a better image quality and/or prompt interpretation is needed, newer versions of the model can be used by changing the version in the code.
-
-Google Colab runs in a cloud-based environment where each notebook is executed on a virtual machine. This VM is isolated from the internet for security and privacy reasons. Ngrok is a tool that creates secure tunnels to your localhost, allowing you to expose a local development server to the internet. When working in Google Colab, ngrok can be particularly useful for creating web applications or APIs that you want to test or share with others, as it creates tunnels that securely expose the services running inside these VMs to the internet. To use ngrok it is needed to create an account and use the authtoken provided in the account.
-
-To open the app, click on the ngrok-free.app link in the output at the end of the program run in text_to_image_generator_app.ipynb.
-
-<h2>Examples of Images Generated with the App</h2>
-
-Prompt: white elephant in the sea next to a beach
-
-![Screenshot 2024-07-23 at 17-32-07 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/572e0baf-6bc4-48bc-a000-4dbf1d83ace0)
-
-
-Prompt: Edinburgh castle
-
-![Screenshot 2024-07-23 at 20-29-11 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/acfade24-ba58-4645-8122-de1b7d045adb)
-
-
-Prompt: New York city
-
-![Screenshot 2024-07-23 at 20-30-35 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/ccfb679b-4f13-42f0-810a-8fe81c78bfd0)
-
-
-Prompt: realistic image of New York city
-
-![Screenshot 2024-07-23 at 20-31-31 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/a54cc6fa-6ec6-4617-b4b3-184fa05f1ebd)
-
-
-Prompt: stormy sea with an island
-
-![Screenshot 2024-07-23 at 20-27-48 (PNG Image 768 × 768 pixels)](https://github.com/user-attachments/assets/4b823948-03b8-4ef7-908b-5cca301924a7)
 
 
 <h2>References</h2>
