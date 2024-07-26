@@ -20,7 +20,9 @@ Google Colab runs in a cloud-based environment where each notebook is executed o
 
 4. Run the code.
 
-5. Click on the ngrok-free.app link in the output.
+5. Click on the ngrok-free.app link in the output. It opens a page reminding you that you are opening a website served for free through ngrok.com.
+   
+7. Click on the 'Visit Site' button.
 
 <h2>Examples of Images Generated with the App</h2>
 
