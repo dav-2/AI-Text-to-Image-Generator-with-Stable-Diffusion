@@ -1,4 +1,4 @@
-<h1>Text to Image Generator Flask App Created Using the Stable Diffusion Model</h1>
+<h1>Text to Image Gen AI Flask App Created Using the Stable Diffusion Model</h1>
 
 Easy to use image generator created in Google Colab. Designed to streamline the experience of creating AI generated images.
 
