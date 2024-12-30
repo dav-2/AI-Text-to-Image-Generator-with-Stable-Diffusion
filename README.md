@@ -1,8 +1,8 @@
-<h1>Text to Image Gen AI Flask App Created Using the Stable Diffusion Model</h1>
+<h1>AI Text-to-Image Generator - Stable Diffusion Model</h1>
 
-Easy to use image generator created in Google Colab. Designed to streamline the experience of creating AI generated images.
+An easy-to-use AI text-to-image generator created using Flask and the Stable Diffusion model.
 
-text_to_image_generator.ipynb is just the model working inside Colab.
+text_to_image_generator.ipynb is the model running inside Colab.
 
 text_to_image_generator_app.ipynb opens a small web app where the user interacts with the image generator.
 
