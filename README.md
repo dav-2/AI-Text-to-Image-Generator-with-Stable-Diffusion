@@ -1,4 +1,4 @@
-<h1>AI Text-to-Image Generator - Stable Diffusion Model</h1>
+<h1>AI Text-to-Image Generator with Stable Diffusion</h1>
 
 An easy-to-use AI text-to-image generator created using Flask and the Stable Diffusion model.
 
